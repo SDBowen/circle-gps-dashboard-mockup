@@ -25,10 +25,16 @@
   background-color: var(--color-grey-dark-1);
 
   flex: 0 0 10%;
+
+  display: flex;
+  flex-direction: column;
 }
 
 .map-view {
   background-color: #fff;
+
+  // testing
+  height: 80rem;
 
   flex: 1;
   background-color: orangered;

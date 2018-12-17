@@ -8,22 +8,33 @@
 // ////////////////////////////
 // USER NAVIGATION
 .user-nav {
-  align-self: stretch;
-
   display: flex;
+  align-self: stretch;
   align-items: center;
 
-  &__user {
+  & > * {
     padding: 0 2rem;
     cursor: pointer;
     height: 100%;
-
     display: flex;
     align-items: center;
   }
 
-  &__user:hover {
+  & > div:hover {
     background-color: var(--color-grey-light-2);
+  }
+
+  &__icon-box {
+    position: relative;
+  }
+
+  &__icon {
+    height: 2.25rem;
+    width: 2.25rem;
+    fill: var(--color-grey-dark-2);
+  }
+
+  &__user {
   }
 }
 

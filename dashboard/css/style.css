@@ -41,17 +41,23 @@ body {
   margin-left: 2rem; }
 
 .user-nav {
-  align-self: stretch;
   display: flex;
+  align-self: stretch;
   align-items: center; }
-  .user-nav__user {
+  .user-nav > * {
     padding: 0 2rem;
     cursor: pointer;
     height: 100%;
     display: flex;
     align-items: center; }
-  .user-nav__user:hover {
+  .user-nav > div:hover {
     background-color: var(--color-grey-light-2); }
+  .user-nav__icon-box {
+    position: relative; }
+  .user-nav__icon {
+    height: 2.25rem;
+    width: 2.25rem;
+    fill: var(--color-grey-dark-2); }
 
 .side-nav {
   font-size: 1.4rem;

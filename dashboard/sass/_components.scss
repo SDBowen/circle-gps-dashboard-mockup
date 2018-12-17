@@ -13,14 +13,17 @@
     display: inline-block;
     margin-left: 2em;
 
-    background-color: var(--color-primary-light);
+    background-color: var(--color-primary-dark);
   }
 
   &__text {
     margin-left: -2.5rem;
-    font-weight: 600;
-    font-size: 1.8rem;
+
     letter-spacing: 0.5rem;
+    font-weight: 700;
+    font-size: 1.8rem;
+
+    color: var(--color-white);
   }
 }
 
@@ -40,7 +43,7 @@
   }
 
   & > div:hover {
-    background-color: var(--color-grey-light-2);
+    background-color: var(--color-grey-dark-2);
   }
 
   &__icon-box {

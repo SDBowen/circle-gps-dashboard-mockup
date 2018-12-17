@@ -1,14 +1,14 @@
 .container {
-  max-width: 98%;
-  margin: 0.5rem auto;
+  max-width: 99%;
+  min-height: 100%;
+  margin: $container-margin auto;
+
   background-color: var(--color-grey-light-1);
   box-shadow: 0 2rem 6rem rgba(0, 0, 0, 0.3);
-
-  min-height: 89rem;
 }
 
 .header {
-  height: 7rem;
+  height: $header-height;
   background-color: #fff;
   border-bottom: var(--color-grey-light-2);
 
@@ -36,6 +36,7 @@
   flex: 1;
 
   // testing
-  height: 80rem;
+  // height: 80rem;
+  min-height: calc(100vh - #{$header-height} - (#{$container-margin} * 2));
   background-color: lightgrey;
 }

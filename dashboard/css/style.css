@@ -111,11 +111,10 @@ body {
     fill: currentColor; }
 
 .container {
-  max-width: 99%;
+  max-width: 99.5%;
   min-height: 100%;
   margin: 0.5rem auto;
-  background-color: var(--color-grey-light-1);
-  box-shadow: 0 2rem 6rem rgba(0, 0, 0, 0.3); }
+  background-color: var(--color-grey-light-1); }
 
 .header {
   height: 6rem;

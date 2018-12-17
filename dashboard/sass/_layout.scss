@@ -35,5 +35,8 @@
   flex: 1;
 
   min-height: calc(100vh - #{$header-height} - (#{$container-margin} * 2));
-  background-color: lightgrey;
+
+  // DEMO MAP
+  background-image: url(../img/GoogleMap-1-1200x630-e1479510841629.jpg);
+  background-size: cover;
 }

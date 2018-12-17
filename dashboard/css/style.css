@@ -138,4 +138,5 @@ body {
   background-color: #fff;
   flex: 1;
   min-height: calc(100vh - 6rem - (0.5rem * 2));
-  background-color: lightgrey; }
+  background-image: url(../img/GoogleMap-1-1200x630-e1479510841629.jpg);
+  background-size: cover; }

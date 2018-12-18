@@ -21,6 +21,12 @@
 $header-height: 6rem;
 $container-margin: 0.5rem;
 
+// SASS MIXINS
+@mixin nav-menu-text {
+  font-size: 1.4rem;
+  letter-spacing: 0.1rem;
+}
+
 * {
   margin: 0;
   padding: 0;

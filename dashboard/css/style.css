@@ -53,7 +53,9 @@ body {
 .user-nav {
   display: flex;
   align-self: stretch;
-  align-items: center; }
+  align-items: center;
+  font-size: 1.4rem;
+  letter-spacing: 0.1rem; }
   .user-nav > * {
     padding: 0 2rem;
     cursor: pointer;
@@ -74,9 +76,10 @@ body {
     margin-left: 0.75rem; }
 
 .side-nav {
-  font-size: 1.4rem;
   list-style: none;
-  margin-top: 3.5rem; }
+  margin-top: 3.5rem;
+  font-size: 1.4rem;
+  letter-spacing: 0.1rem; }
   .side-nav__item {
     position: relative; }
     .side-nav__item:not(:last-child) {

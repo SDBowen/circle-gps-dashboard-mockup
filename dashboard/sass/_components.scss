@@ -46,6 +46,10 @@
     background-color: var(--color-grey-dark-2);
   }
 
+  & > div:hover &__icon {
+    fill: var(--color-grey-dark-1);
+  }
+
   &__icon-box {
     position: relative;
   }

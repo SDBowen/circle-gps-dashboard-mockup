@@ -62,6 +62,8 @@ body {
     align-items: center; }
   .user-nav > div:hover {
     background-color: var(--color-grey-dark-2); }
+  .user-nav > div:hover .user-nav__icon {
+    fill: var(--color-grey-dark-1); }
   .user-nav__icon-box {
     position: relative; }
   .user-nav__icon {

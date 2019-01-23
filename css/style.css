@@ -36,19 +36,9 @@ body {
 .logo {
   display: flex;
   align-items: center; }
-  .logo__icon {
-    height: 4rem;
-    width: 4rem;
-    border-radius: 50%;
-    display: inline-block;
-    margin-left: 2em;
-    background-color: var(--color-primary-dark); }
-  .logo__text {
-    margin-left: -2.5rem;
-    letter-spacing: 0.5rem;
-    font-weight: 700;
-    font-size: 1.8rem;
-    color: var(--color-white); }
+  .logo__image {
+    height: 5rem;
+    margin-left: 2em; }
 
 .user-nav {
   display: flex;
@@ -175,5 +165,31 @@ body {
     height: 3.5rem;
     width: 100%; }
   .login-box__error {
+    height: 0;
+    opacity: 0; }
+
+.section-settings {
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  display: flex; }
+
+.settings-box {
+  flex-direction: column;
+  display: flex; }
+  .settings-box__header {
+    justify-content: space-between;
+    display: flex; }
+  .settings-box__option {
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    display: flex; }
+  .settings-box__form > * {
+    margin-top: 1rem; }
+  .settings-box__submit-button {
+    height: 3.5rem;
+    width: 100%; }
+  .settings-box__error {
     height: 0;
     opacity: 0; }
